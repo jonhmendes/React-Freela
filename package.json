@@ -1,21 +1,35 @@
 {
-  "name": "b7freelacrm",
-  "version": "1.0.0",
-  "description": "CRM para Freelancers",
-  "main": "index.js",
+  "name": "inca",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "node-sass": "^4.12.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
+    "react-router-dom": "^5.0.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/suporteb7web/b7freelacrm.git"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "author": "B7Web",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/suporteb7web/b7freelacrm/issues"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
-  "homepage": "https://github.com/suporteb7web/b7freelacrm#readme",
   "devDependencies": {
     "@babel/core": "^7.4.0",
     "@babel/preset-env": "^7.4.2",
@@ -31,10 +45,6 @@
     "url-loader": "^1.1.2",
     "vinyl-named": "^1.1.0",
     "webpack-stream": "^5.2.1"
-  },
-  "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-router-dom": "^5.0.0"
   }
+ 
 }
